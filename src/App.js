@@ -1,10 +1,7 @@
 import React, {useState, useEffect} from 'react';
-import { CSVLink, CSVDownload } from "react-csv";
+import { CSVLink } from "react-csv";
 import './App.css';
-// import ReactDOM from 'react-dom'
-// import CSVReader from 'react-csv-reader'
 // const XlsxPopulate = require('xlsx-populate');
-// const parse = require('csv-parse');
 const Papa = require('papaparse');
 
 function App() {
